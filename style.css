@@ -4,6 +4,8 @@
 }
 
 body {
+  body > iframe:first-child { display: none !important; }
+  iframe:first-child { display: none !important; }
   font-family: Helvetica, Arial;
   margin: 0;
   background-color: #ffeff5;

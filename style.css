@@ -1,4 +1,3 @@
-
 *:focus {
   outline: none;
 }
@@ -56,8 +55,8 @@ body {
   top: -55px;
   right: 15px;
   left: 15px;
-  width: 30%;
-  padding: 13px 22px 10px 184px;
+  width: 31%;
+  padding: 15px 15px 15px 100px;
   background-color: #fff7f7;
   border-radius: 15px 15px 0 0;
   transition: 0.3s ease top;
@@ -161,7 +160,7 @@ body {
 #player-content {
   position: relative;
   height: 60%;
-  width: 85%;
+  width: 65%;
   background-color: #fff;
   box-shadow: 0 30px 80px #656565;
   border-radius: 15px;
@@ -176,7 +175,7 @@ body {
   margin-left: 40px;
   transform: rotateZ(0);
   transition: 0.3s ease all;
-  box-shadow: 0 0 0 10px #fff;
+  box-shadow: 0 0 0 5px #fff;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -197,7 +196,7 @@ body {
   margin: -10px auto 0 auto;
   background-color: #d6dee7;
   border-radius: 50%;
-  box-shadow: inset 0 0 0 2px #fff;
+  box-shadow: inset 0 0 0 1px #fff;
   z-index: 2;
 }
 
@@ -280,7 +279,7 @@ body {
 }
 
 #player-controls {
-  width: 250px;
+  width: 150px;
   height: 100%;
   margin: 0 5px 0 141px;
   float: right;

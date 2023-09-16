@@ -64,6 +64,12 @@ $(function () {
     playNextTrackButton = $("#play-next"),
     currIndex = -1;
 
+    // Función para reproducir la siguiente canción
+    function playNextTrack() {
+      currIndex = (currIndex + 1) % albumArtworks.length;
+      selectTrack(1);
+    }
+
   function playPause() {
     setTimeout(function () {
       if (audio.paused) {
@@ -252,6 +258,10 @@ $(function () {
     });
     playNextTrackButton.on("click", function () {
       selectTrack(1);
+    });
+    // Evento para detectar el final de la canción actual y reproducir la siguiente
+    audio.addEventListener('ended', function () {
+      playNextTrack();
     });
   }
 
